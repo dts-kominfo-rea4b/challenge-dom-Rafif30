@@ -92,6 +92,7 @@
       // TODO: register event onclick / addEventListener untuk button
       button.addEventListener("click", fnClickHandler);
       input.addEventListener("keypress", function (e) {
+        // charCode 13 means "Enter"
         if (e.charCode === 13) {
           fnClickHandler();
         }
